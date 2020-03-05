@@ -8,3 +8,13 @@ E:\Documents\Visual Studio Projects\BitmapToBytes\BitmapToBytes\obj\Debug\Bitmap
 E:\Documents\Visual Studio Projects\BitmapToBytes\BitmapToBytes\obj\Debug\BitmapToBytes.csproj.CoreCompileInputs.cache
 E:\Documents\Visual Studio Projects\BitmapToBytes\BitmapToBytes\obj\Debug\BitmapToBytes.exe
 E:\Documents\Visual Studio Projects\BitmapToBytes\BitmapToBytes\obj\Debug\BitmapToBytes.pdb
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\bin\Debug\BitmapToBytes.exe.config
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\bin\Debug\BitmapToBytes.exe
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\bin\Debug\BitmapToBytes.pdb
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.csprojAssemblyReference.cache
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.Form1.resources
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.Properties.Resources.resources
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.csproj.GenerateResource.cache
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.csproj.CoreCompileInputs.cache
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.exe
+C:\GitProjects\BitmapToByteArrayConverter\BitmapToBytes\obj\Debug\BitmapToBytes.pdb

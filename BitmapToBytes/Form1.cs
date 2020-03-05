@@ -105,5 +105,36 @@ namespace BitmapToBytes
                 
             }
         }
+
+        // This will convert an image, for use in Arduino code, to show on the OLED 1.3" (Driver IC: SSD1306) display 128x64 pixels
+        private void openForOLEDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            openFileDialog1.Filter = "Bitmap files (*.bmp)|*.bmp|All files (*.*)|*.*";
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+            if (result != DialogResult.OK)
+                return;
+
+            string file = openFileDialog1.FileName;
+            var generator = new XBMGenerator(file);
+            var genResult = generator.Process();
+            if (genResult.Success)
+            {
+                //MessageBox.Show("Successful conversion");
+                textBox1.Text = genResult.Data;
+
+                // extra- convert for api output
+                //var jsonMaker = new MakeJSONForOLED(genResult);
+                //string outputFormat = "{ \"x\":{0},\"y\":{1},\"w\":{2},\"h\":{3},\"data\":[{4}]  }";
+                //string output = string.Format(outputFormat, 0, 0, genResult.ImageWidth, genResult.ImageHeight, genResult.Data);
+                //textBox1.Text += Environment.NewLine + Environment.NewLine + Environment.NewLine + Environment.NewLine;
+                //textBox1.Text += output;
+
+            }
+            else
+                MessageBox.Show("Failed: {data.ErrorMessage} ");
+
+
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.openForOLEDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +56,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openToolStripMenuItem,
-            this.saveTextToolStripMenuItem});
+            this.saveTextToolStripMenuItem,
+            this.openForOLEDToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(703, 24);
@@ -75,6 +77,13 @@
             this.saveTextToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.saveTextToolStripMenuItem.Text = "Save Text";
             this.saveTextToolStripMenuItem.Click += new System.EventHandler(this.saveTextToolStripMenuItem_Click);
+            // 
+            // openForOLEDToolStripMenuItem
+            // 
+            this.openForOLEDToolStripMenuItem.Name = "openForOLEDToolStripMenuItem";
+            this.openForOLEDToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
+            this.openForOLEDToolStripMenuItem.Text = "Open For OLED";
+            this.openForOLEDToolStripMenuItem.Click += new System.EventHandler(this.openForOLEDToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -101,6 +110,7 @@
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveTextToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem openForOLEDToolStripMenuItem;
     }
 }
 
